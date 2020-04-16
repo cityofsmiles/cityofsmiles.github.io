@@ -6,7 +6,7 @@ pkg install -y python ncurses-utils tar
 
 wget https://github.com/cityofsmiles/calculators/raw/master/synthetic-calc.tar.gz
 
-echo "alias synth='bash ~/synthetic-calc/synthetic-calc.sh'" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+echo "alias synth='python ~/synthetic-calc/synthetic-calc.py'" >> /data/data/com.termux/files/usr/etc/bash.bashrc
 
 source /data/data/com.termux/files/usr/etc/bash.bashrc
 

@@ -10,7 +10,7 @@ pip install numpy
 
 wget https://github.com/cityofsmiles/calculators/raw/master/systems-solver.tar.gz
 
-echo "alias syst='bash ~/systems-solver/systems-solver.sh'" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+echo "alias syst='python ~/systems-solver/systems-solver.py'" >> /data/data/com.termux/files/usr/etc/bash.bashrc
 
 source /data/data/com.termux/files/usr/etc/bash.bashrc
 
