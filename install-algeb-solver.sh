@@ -4,7 +4,7 @@ cd ~
 
 pkg install -y python ncurses-utils
 
-pip install -upgrade pip
+pip install --upgrade pip
 
 pip install sympy
 
