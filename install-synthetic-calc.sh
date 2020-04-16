@@ -1,0 +1,20 @@
+#!/data/data/com.termux/files/usr/bin/sh
+
+cd ~
+
+pkg install -y python ncurses-utils tar
+
+wget https://github.com/cityofsmiles/calculators/raw/master/synthetic-calc.tar.gz
+
+echo "alias synth='bash ~/synthetic-calc/synthetic-calc.sh'" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+
+source /data/data/com.termux/files/usr/etc/bash.bashrc
+
+tar -xzvf synthetic-calc.tar.gz
+
+rm synthetic-calc.tar.gz
+
+echo "Restart Termux then enter synth to use the calculator."
+
+
+
