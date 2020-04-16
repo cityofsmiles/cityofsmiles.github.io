@@ -2,7 +2,7 @@
 
 cd ~
 
-pkg install -y python ncurses-utils
+pkg install -y python ncurses-utils tar
 
 pip install --upgrade pip
 
