@@ -1,12 +1,10 @@
 #!/data/data/com.termux/files/usr/bin/sh
 
-pkg upgrade
+cd ~
 
-pkg install -y python wget
+pkg install -y python 
 
 pip install sympy
-
-cd ~
 
 wget https://github.com/cityofsmiles/calculators/raw/master/algeb-solver.zip
 
