@@ -16,6 +16,8 @@ source /data/data/com.termux/files/usr/etc/bash.bashrc
 
 tar -xzvf algeb-solver.tar.gz
 
+rm algeb-solver.tar.gz
+
 
 
 
