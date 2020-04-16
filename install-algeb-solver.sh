@@ -6,7 +6,7 @@ pkg install -y python
 
 pip install sympy
 
-wget https://github.com/cityofsmiles/calculators/blob/master/algeb-solver.tar.gz
+wget https://github.com/cityofsmiles/calculators/raw/master/algeb-solver.tar.gz
 
 echo "alias algeb='bash ~/algeb-solver/algeb-solver.sh'" >> ~/.bashrc
 
