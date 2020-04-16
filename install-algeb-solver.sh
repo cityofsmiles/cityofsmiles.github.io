@@ -2,7 +2,7 @@
 
 cd ~
 
-pkg install -y python tput
+pkg install -y python ncurses-utils
 
 pip install -upgrade pip
 
