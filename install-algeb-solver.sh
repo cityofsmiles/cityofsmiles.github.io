@@ -6,7 +6,7 @@ pkg install -y python
 
 pip install sympy
 
-wget https://github.com/cityofsmiles/calculators/raw/master/algeb-solver.zip
+wget https://github.com/cityofsmiles/calculators/blob/master/algeb-solver.tar.gz
 
 tar -xzvf ./algeb-solver.tar.gz
 
