@@ -10,7 +10,13 @@ pip install sympy
 
 wget https://github.com/cityofsmiles/calculators/raw/master/algeb-solver.tar.gz
 
-echo "alias algeb='python ~/algeb-solver-v2/algeb-solver-v2.py'" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+cd /data/data/com.termux/files/usr/etc/
+
+sed -n -i '/alias algeb/!p' bash.bashrc
+
+echo "alias algeb='python ~/algeb-solver-v2/algeb-solver-v2.py'" >> bash.bashrc
+
+cd ~
 
 source /data/data/com.termux/files/usr/etc/bash.bashrc
 
