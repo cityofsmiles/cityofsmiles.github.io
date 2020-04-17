@@ -14,7 +14,7 @@ cd /data/data/com.termux/files/usr/etc/
 
 sed -n -i '/alias algeb/!p' bash.bashrc
 
-echo "alias algeb='python ~/algeb-solver/algeb-solver.py'" >> bash.bashrc
+echo "alias algeb='python ~/algeb-solver-v2/algeb-solver-v2.py'" >> bash.bashrc
 
 cd ~
 
@@ -24,7 +24,7 @@ tar -xzvf algeb-solver.tar.gz
 
 rm algeb-solver.tar.gz
 
-cd ~/algeb-solver
+cd ~/algeb-solver-v2
 
 chmod +x *
 
