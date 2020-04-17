@@ -12,9 +12,11 @@ wget https://github.com/cityofsmiles/calculators/raw/master/algeb-solver-v2.tar.
 
 cd /data/data/com.termux/files/usr/etc/
 
+sed -n -i '/alias algeb/!p' bash.bashrc
+
 sed -n -i '/alias algeb2/!p' bash.bashrc
 
-echo "alias algeb2='cd ~/algeb-solver-v2; python algeb-solver-v2.py; cd ~'" >> bash.bashrc
+echo "alias algeb='cd ~/algeb-solver-v2; python algeb-solver-v2.py; cd ~'" >> bash.bashrc
 
 cd ~
 
