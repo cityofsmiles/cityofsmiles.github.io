@@ -27,6 +27,8 @@ bash install-systems-solver.sh
 
 wget https://github.com/cityofsmiles/calculators/raw/master/gen-cal.tar.gz
 
+wget https://cityofsmiles.github.io/uninstall-gen-cal.sh
+
 tar -xzvf gen-cal.tar.gz
 
 rm gen-cal.tar.gz

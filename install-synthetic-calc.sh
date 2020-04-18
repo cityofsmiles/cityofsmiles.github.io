@@ -6,6 +6,8 @@ pkg install -y python ncurses-utils tar
 
 wget https://github.com/cityofsmiles/calculators/raw/master/synthetic-calc.tar.gz
 
+wget https://cityofsmiles.github.io/uninstall-synthetic-calc.sh
+
 #echo "alias synth='python ~/synthetic-calc/synthetic-calc.py'" >> /data/data/com.termux/files/usr/etc/bash.bashrc
 
 #source /data/data/com.termux/files/usr/etc/bash.bashrc

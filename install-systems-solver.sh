@@ -10,6 +10,8 @@ pip install numpy sympy
 
 wget https://github.com/cityofsmiles/calculators/raw/master/systems-solver.tar.gz
 
+wget https://cityofsmiles.github.io/uninstall-systems-solver.sh
+
 #echo "alias syst='python ~/systems-solver/systems-solver.py'" >> /data/data/com.termux/files/usr/etc/bash.bashrc
 
 #source /data/data/com.termux/files/usr/etc/bash.bashrc

@@ -10,6 +10,8 @@ pip install sympy
 
 wget https://github.com/cityofsmiles/calculators/raw/master/algeb-solver-v2.tar.gz
 
+wget https://cityofsmiles.github.io/uninstall-algeb-solver-v2.sh
+
 cd /data/data/com.termux/files/usr/etc/
 
 sed -n -i '/alias algeb/!p' bash.bashrc
