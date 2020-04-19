@@ -1,9 +1,15 @@
 #!/usr/bin/env bash 
 
-cd ~
+# Set magic variables for current file & dir
+__dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+__file="${__dir}/$(basename "${BASH_SOURCE[0]}")"
 
 rm -r systems-solver &&
 
 rm /data/data/com.termux/files/usr/bin/syst &&
 
+rm install-systems-solver.sh &&
+
 echo "Successfully removed systems-solver."
+
+rm $__file

@@ -6,7 +6,11 @@ pkg install -y python ncurses-utils tar
 
 pip install --upgrade pip
 
-pip install sympy
+python -c "import sympy"
+
+if [ $? == "1" ]
+	then pip install sympy
+fi
 
 wget https://github.com/cityofsmiles/calculators/raw/master/algeb-solver-v2.tar.gz
 

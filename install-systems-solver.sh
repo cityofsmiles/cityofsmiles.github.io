@@ -6,7 +6,17 @@ pkg install -y python ncurses-utils tar
 
 pip install --upgrade pip
 
-pip install numpy sympy
+python -c "import sympy"
+
+if [ $? == "1" ]
+	then pip install sympy
+fi
+
+python -c "import numpy"
+
+if [ $? == "1" ]
+	then pip install numpy
+fi
 
 wget https://github.com/cityofsmiles/calculators/raw/master/systems-solver.tar.gz
 
