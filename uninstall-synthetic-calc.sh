@@ -12,3 +12,9 @@ rm install-synthetic-calc.sh &&
 echo "Successfully removed synthetic-calc."
 
 rm $__file
+
+cd /data/data/com.termux/files/usr/etc/
+
+sed -n -i '/alias synth/!p' bash.bashrc
+
+

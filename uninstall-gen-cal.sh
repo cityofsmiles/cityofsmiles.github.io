@@ -20,3 +20,9 @@ rm install-gen-cal.sh &&
 echo "Successfully removed general calculator."
 
 rm $__file
+
+cd /data/data/com.termux/files/usr/etc/
+
+sed -n -i '/alias gcal/!p' bash.bashrc
+
+

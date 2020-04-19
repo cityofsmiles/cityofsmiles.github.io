@@ -13,3 +13,10 @@ rm install-systems-solver.sh &&
 echo "Successfully removed systems-solver."
 
 rm $__file
+
+cd /data/data/com.termux/files/usr/etc/
+
+sed -n -i '/alias syst/!p' bash.bashrc
+
+
+

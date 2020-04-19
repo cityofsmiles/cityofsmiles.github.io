@@ -39,5 +39,9 @@ ln -s gen_cal.py /data/data/com.termux/files/usr/bin/gcal
 
 echo "Restart Termux then enter 'gcal' to use the calculator."
 
+cd /data/data/com.termux/files/usr/etc/
 
+echo "alias gcal='cd ~/algeb-solver-v2; python algeb-solver-v2.py; cd ~'" >> bash.bashrc
+
+cd ~
 
