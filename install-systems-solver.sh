@@ -40,7 +40,7 @@ echo "Restart Termux then enter 'syst' to use the calculator."
 
 cd /data/data/com.termux/files/usr/etc/
 
-echo "alias syst='cd ~/algeb-solver-v2; python algeb-solver-v2.py; cd ~'" >> bash.bashrc
+echo "alias syst='cd ~/systems-solver; python systems-solver.py; cd ~'" >> bash.bashrc
 
 cd ~
 

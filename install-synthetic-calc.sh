@@ -26,7 +26,7 @@ echo "Restart Termux then enter 'synth' to use the calculator."
 
 cd /data/data/com.termux/files/usr/etc/
 
-echo "alias synth='cd ~/algeb-solver-v2; python algeb-solver-v2.py; cd ~'" >> bash.bashrc
+echo "alias synth='cd ~/synthetic-calc; python synthetic-calc.py; cd ~'" >> bash.bashrc
 
 cd ~
 

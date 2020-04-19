@@ -41,7 +41,7 @@ echo "Restart Termux then enter 'gcal' to use the calculator."
 
 cd /data/data/com.termux/files/usr/etc/
 
-echo "alias gcal='cd ~/algeb-solver-v2; python algeb-solver-v2.py; cd ~'" >> bash.bashrc
+echo "alias gcal='cd ~; python gen_cal.py'" >> bash.bashrc
 
 cd ~
 
