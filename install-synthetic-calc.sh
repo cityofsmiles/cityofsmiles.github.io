@@ -20,7 +20,7 @@ cd ~/synthetic-calc
 
 chmod +x *
 
-ln -s ./synthetic-calc.py /data/data/com.termux/files/usr/bin/synth
+ln -s synthetic-calc.py /data/data/com.termux/files/usr/bin/synth
 
 echo "Restart Termux then enter 'synth' to use the calculator."
 

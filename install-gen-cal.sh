@@ -35,7 +35,7 @@ rm gen-cal.tar.gz
 
 chmod +x gen_cal.py
 
-ln -s ~/gen_cal.py /data/data/com.termux/files/usr/bin/gcal
+ln -s gen_cal.py /data/data/com.termux/files/usr/bin/gcal
 
 echo "Restart Termux then enter 'gcal' to use the calculator."
 

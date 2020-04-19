@@ -34,7 +34,7 @@ cd ~/systems-solver
 
 chmod +x *
 
-ln -s ./systems-solver.py /data/data/com.termux/files/usr/bin/syst
+ln -s systems-solver.py /data/data/com.termux/files/usr/bin/syst
 
 echo "Restart Termux then enter 'syst' to use the calculator."
 
