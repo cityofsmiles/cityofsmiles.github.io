@@ -6,9 +6,9 @@ __file="${__dir}/$(basename "${BASH_SOURCE[0]}")"
 
 rm -r systems-solver &&
 
-rm /data/data/com.termux/files/usr/bin/syst &&
+#rm /data/data/com.termux/files/usr/bin/syst &&
 
-rm install-systems-solver.sh &&
+rm ~/install-systems-solver.sh &&
 
 echo "Successfully removed systems-solver."
 
