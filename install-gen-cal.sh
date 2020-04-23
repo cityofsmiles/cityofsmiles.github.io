@@ -23,6 +23,11 @@ wget https://cityofsmiles.github.io/install-systems-solver.sh
 
 bash install-systems-solver.sh
 
+# Install Semser-solver
+wget https://cityofsmiles.github.io/install-semser-solver.sh
+
+bash install-semser-solver.sh
+
 # install gen-cal
 
 wget https://github.com/cityofsmiles/calculators/raw/master/gen-cal.tar.gz

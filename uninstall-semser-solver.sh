@@ -4,17 +4,17 @@
 __dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 __file="${__dir}/$(basename "${BASH_SOURCE[0]}")"
 
-rm -r systems-solver &&
+rm -r semser-solver &&
 
-rm ~/install-systems-solver.sh &&
+rm ~/install-semser-solver.sh &&
 
-echo "Successfully removed systems-solver."
+echo "Successfully removed semser-solver."
 
 rm $__file
 
 cd /data/data/com.termux/files/usr/etc/
 
-sed -n -i '/alias syst/!p' bash.bashrc
+sed -n -i '/alias semser/!p' bash.bashrc
 
 
 

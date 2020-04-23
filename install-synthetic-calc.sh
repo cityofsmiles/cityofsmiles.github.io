@@ -8,10 +8,6 @@ wget https://github.com/cityofsmiles/calculators/raw/master/synthetic-calc.tar.g
 
 wget https://cityofsmiles.github.io/uninstall-synthetic-calc.sh
 
-#echo "alias synth='python ~/synthetic-calc/synthetic-calc.py'" >> /data/data/com.termux/files/usr/etc/bash.bashrc
-
-#source /data/data/com.termux/files/usr/etc/bash.bashrc
-
 tar -xzvf synthetic-calc.tar.gz
 
 rm synthetic-calc.tar.gz

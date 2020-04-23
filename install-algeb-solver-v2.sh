@@ -22,7 +22,7 @@ echo "alias algeb='cd ~/algeb-solver-v2; python algeb-solver-v2.py; cd ~'" >> ba
 
 cd ~
 
-source /data/data/com.termux/files/usr/etc/bash.bashrc
+source /data/data/com.termux/files/usr/etc/bash.bashrcf
 
 tar -xzvf algeb-solver-v2.tar.gz
 
@@ -31,8 +31,5 @@ rm algeb-solver-v2.tar.gz
 cd ~/algeb-solver-v2
 
 chmod +x *
-
-#ln -s algeb-solver-v2.py /data/data/com.termux/files/usr/bin/algeb
-
 
 echo "Restart Termux then enter 'algeb' to use the calculator."
