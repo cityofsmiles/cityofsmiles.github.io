@@ -22,10 +22,14 @@ tar -xzvf algeb-solver-v2.tar.gz
 
 sudo rm algeb-solver-v2.tar.gz
 
-cd ~/algeb-solver-v2
+cd ~/algeb_solver_v2
 
 sudo chmod +x *
 
 echo "Restart Termux then enter 'algeb' to use the calculator."
 
 source ~/.bashrc
+
+
+
+

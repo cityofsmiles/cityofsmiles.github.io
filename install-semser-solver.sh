@@ -20,7 +20,7 @@ tar -xzvf semser-solver.tar.gz
 
 rm semser-solver.tar.gz
 
-cd ~/semser-solver
+cd ~/semser_solver
 
 chmod +x *
 

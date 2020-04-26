@@ -18,7 +18,7 @@ tar -xzvf semser-solver.tar.gz
 
 sudo rm semser-solver.tar.gz
 
-cd ~/semser-solver
+cd ~/semser_solver
 
 sudo chmod +x *
 
@@ -28,6 +28,6 @@ echo "alias semser='cd ~/semser_solver; python semser_solver.py; cd ~'" >> ~/.ba
 
 cd ~
 
-
+source ~/.bashrc
 
 

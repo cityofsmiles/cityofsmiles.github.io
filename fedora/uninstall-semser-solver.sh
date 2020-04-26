@@ -4,7 +4,7 @@
 __dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 __file="${__dir}/$(basename "${BASH_SOURCE[0]}")"
 
-sudo rm -r semser-solver &&
+sudo rm -r semser_solver &&
 
 sudo rm ~/install-semser-solver.sh &&
 

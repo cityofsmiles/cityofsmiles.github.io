@@ -28,7 +28,7 @@ tar -xzvf algeb-solver-v2.tar.gz
 
 rm algeb-solver-v2.tar.gz
 
-cd ~/algeb-solver-v2
+cd ~/algeb_solver_v2
 
 chmod +x *
 
