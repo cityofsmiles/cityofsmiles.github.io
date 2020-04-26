@@ -2,25 +2,23 @@
 
 cd ~
 
-pkg install -y python ncurses-utils tar
-
-pip install --upgrade pip
+dnf install -y python3 ncurses tar 
 
 python -c "import sympy"
 
 if [ $? == "1" ]
-	then pip install sympy
+	then dnf install -y python3-sympy
 fi
 
 python -c "import numpy"
 
 if [ $? == "1" ]
-	then pip install numpy
+	then dnf install -y python3-numpy
 fi
 
 wget https://github.com/cityofsmiles/calculators/raw/master/systems-solver.tar.gz
 
-wget https://cityofsmiles.github.io/uninstall-systems-solver.sh
+wget https://cityofsmiles.github.io/fedora/uninstall-systems-solver.sh
 
 tar -xzvf systems-solver.tar.gz
 
@@ -32,9 +30,7 @@ chmod +x *
 
 echo "Restart Termux then enter 'syst' to use the calculator."
 
-cd /data/data/com.termux/files/usr/etc/
-
-echo "alias syst='cd ~/systems-solver; python systems-solver.py; cd ~'" >> bash.bashrc
+echo "alias syst='cd ~/systems-solver; python systems-solver.py; cd ~'" >> ~/.bashrc
 
 cd ~
 
