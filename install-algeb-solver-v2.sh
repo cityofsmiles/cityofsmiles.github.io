@@ -18,7 +18,7 @@ wget https://cityofsmiles.github.io/uninstall-algeb-solver-v2.sh
 
 cd /data/data/com.termux/files/usr/etc/
 
-echo "alias algeb='cd ~/algeb-solver-v2; python algeb-solver-v2.py; cd ~'" >> bash.bashrc
+echo "alias algeb='cd ~/algeb_solver_v2; python algeb_solver_v2.py; cd ~'" >> bash.bashrc
 
 cd ~
 

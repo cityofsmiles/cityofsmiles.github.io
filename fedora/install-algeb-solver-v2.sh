@@ -12,11 +12,11 @@ fi
 
 wget https://github.com/cityofsmiles/calculators/raw/master/algeb-solver-v2.tar.gz
 
-#wget https://cityofsmiles.github.io/fedora/uninstall-algeb-solver-v2.sh
+wget https://cityofsmiles.github.io/fedora/uninstall-algeb-solver-v2.sh
 
 # wget https://cityofsmiles.github.io/fedora/install-algeb-solver-v2.sh
 
-echo "alias algeb='cd ~/algeb-solver-v2; python algeb-solver-v2.py; cd ~'" >> ~/.bashrc
+echo "alias algeb='cd ~/algeb_solver_v2; python algeb_solver_v2.py; cd ~'" >> ~/.bashrc
 
 tar -xzvf algeb-solver-v2.tar.gz
 

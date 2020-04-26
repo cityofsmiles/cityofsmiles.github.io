@@ -3,7 +3,7 @@
 __dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 __file="${__dir}/$(basename "${BASH_SOURCE[0]}")"
 
-sudo rm -r algeb-solver-v2 &&
+sudo rm -r algeb_solver_v2 &&
 
 sudo rm ~/install-algeb-solver-v2.sh &&
 
