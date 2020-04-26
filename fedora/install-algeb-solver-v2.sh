@@ -4,7 +4,7 @@ cd ~
 
 dnf install -y python3 ncurses tar 
 
-python -c 'import sympy'
+python3 -c 'import sympy'
 
 if [ $? == "1" ]
 	then dnf install -y python3-sympy
@@ -20,11 +20,11 @@ echo "alias algeb='cd ~/algeb_solver_v2; python algeb_solver_v2.py; cd ~'" >> ~/
 
 tar -xzvf algeb-solver-v2.tar.gz
 
-rm algeb-solver-v2.tar.gz
+sudo rm algeb-solver-v2.tar.gz
 
 cd ~/algeb-solver-v2
 
-chmod +x *
+sudo chmod +x *
 
 echo "Restart Termux then enter 'algeb' to use the calculator."
 

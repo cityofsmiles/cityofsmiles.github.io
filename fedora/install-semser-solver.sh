@@ -4,7 +4,7 @@ cd ~
 
 dnf install -y python3 ncurses tar 
 
-python -c "import sympy"
+python3 -c "import sympy"
 
 if [ $? == "1" ]
 	then dnf install -y python3-sympy
@@ -16,11 +16,11 @@ wget https://cityofsmiles.github.io/fedora/uninstall-semser-solver.sh
 
 tar -xzvf semser-solver.tar.gz
 
-rm semser-solver.tar.gz
+sudo rm semser-solver.tar.gz
 
 cd ~/semser-solver
 
-chmod +x *
+sudo chmod +x *
 
 echo "Restart Termux then enter 'semser' to use the calculator."
 
