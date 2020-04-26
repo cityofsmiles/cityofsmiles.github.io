@@ -13,16 +13,12 @@ bash uninstall-systems-solver.sh
 
 rm gen_cal.py &&
 
-rm /data/data/com.termux/files/usr/bin/gcal &&
-
 rm install-gen-cal.sh &&
 
 echo "Successfully removed general calculator."
 
 rm $__file
 
-cd /data/data/com.termux/files/usr/etc/
-
-sed -n -i '/alias gcal/!p' bash.bashrc
+sed -n -i '/alias gcal/!p' ~/.bashrc
 
 
