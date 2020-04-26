@@ -5,8 +5,6 @@ __file="${__dir}/$(basename "${BASH_SOURCE[0]}")"
 
 sudo rm -r synthetic-calc &&
 
-sudo rm /data/data/com.termux/files/usr/bin/synth &&
-
 sudo rm install-synthetic-calc.sh &&
 
 echo "Successfully removed synthetic-calc."
