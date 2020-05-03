@@ -26,7 +26,7 @@ cd ~/algeb_solver_v2
 
 sudo chmod +x *
 
-echo "Restart Termux then enter 'algeb' to use the calculator."
+echo "Restart terminal then enter 'algeb' to use the calculator."
 
 source ~/.bashrc
 

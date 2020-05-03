@@ -22,7 +22,7 @@ cd ~/semser_solver
 
 sudo chmod +x *
 
-echo "Restart Termux then enter 'semser' to use the calculator."
+echo "Restart terminal then enter 'semser' to use the calculator."
 
 echo "alias semser='cd ~/semser_solver; python3 semser_solver.py; cd ~'" >> ~/.bashrc
 
