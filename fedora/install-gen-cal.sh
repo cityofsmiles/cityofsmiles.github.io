@@ -42,7 +42,7 @@ sudo chmod +x gen_cal.py
 
 echo "Restart Termux then enter 'gcal' to use the calculator."
 
-echo "alias gcal='cd ~; python gen_cal.py'" >> ~/.bashrc
+echo "alias gcal='cd ~; python3 gen_cal.py'" >> ~/.bashrc
 
 cd ~
 

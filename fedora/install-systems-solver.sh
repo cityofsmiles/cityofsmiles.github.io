@@ -30,7 +30,7 @@ chmod +x *
 
 echo "Restart Termux then enter 'syst' to use the calculator."
 
-echo "alias syst='cd ~/systems-solver; python systems-solver.py; cd ~'" >> ~/.bashrc
+echo "alias syst='cd ~/systems-solver; python3 systems-solver.py; cd ~'" >> ~/.bashrc
 
 cd ~
 

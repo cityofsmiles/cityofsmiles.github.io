@@ -18,7 +18,7 @@ sudo chmod +x *
 
 echo "Restart Termux then enter 'synth' to use the calculator."
 
-echo "alias synth='cd ~/synthetic-calc; python synthetic-calc.py; cd ~'" >> ~/.bashrc
+echo "alias synth='cd ~/synthetic-calc; python3 synthetic-calc.py; cd ~'" >> ~/.bashrc
 
 source ~/.bashrc
 
